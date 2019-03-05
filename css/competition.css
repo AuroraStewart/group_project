@@ -6,47 +6,12 @@ body {
 }
 
 h1 {color: white;
-text-align: center;
-}
+text-align: center;}
 
 div {
   background-color: white ;
   height: 700px;
   width: 65% ;
-  margin: auto;
+  margin:auto;
   border-radius: 50px;
-}
-
- .content {
-  text-align: center;
-}
-/* fixed navigation bar at the top of the page */
-.navbar {
-  margin-top: 10px;
-  margin-left: 10px;
-  overflow: hidden;
-  position: fixed;
-  padding: 10px;
-  top: 0;
-  width: auto;
-  height: auto;
-  border-radius: 20px;
-}
-
-/* links in navigation bar */
-.navbar a {
-  font-size: 15px;
-  float: left;
-  display: flex;
-  color: white;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  color: black;
-}
-
-/* changes when hover mouse */
-.navbar a:hover {
-  color: white;
-  background-color: black;
 }
