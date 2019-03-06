@@ -16,6 +16,7 @@ h2 {
   color: white;
   text-align: center;
 }
+
 #recipe-header {
   color: #262626;
 }
@@ -26,8 +27,10 @@ div.content {
   height: 700px;
   width: 65% ;
   margin-left: 18%;
+  margin-top: 1.5em;
   border-radius: 50px;
   color: #262626;
+  font-size: 1em;
 }
 
 /* fixed navigation bar at the top of the page */
@@ -78,17 +81,25 @@ li.ingredients {
   border-right: 1px solid #262626;
 }
 
-.ingredients-box {
-  height:auto;
-  width:auto;
-
+#lastitem {
+  border-right: none;
 }
 
+ul {
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  justify-content: space-evenly;
+  display: flex;
+}
+.recipe {
+text-align: left;
+}
 /* adds a footer at the end of the page */
 footer {
   bottom: 0;
   background-color: black;
-  height: 60px;
+  height: 100px;
   width: 100%;
   margin: auto;
   display: block;
