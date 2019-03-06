@@ -69,14 +69,19 @@ div.content {
 }
 
 /* ingredients list */
-li {
+li.ingredients {
   list-style-type: none;
-  text-align: center;
   text-decoration: none;
   float: left;
   overflow: hidden;
   padding: 10px;
   border-right: 1px solid #262626;
+}
+
+.ingredients-box {
+  height:auto;
+  width:auto;
+
 }
 
 /* adds a footer at the end of the page */
