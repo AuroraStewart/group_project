@@ -3,23 +3,33 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height 100%;
 }
 
 h1 {color: white;
 text-align: center;
 }
 
-div {
+h2 {
+  color: white;
+  text-align: center;
+}
+#recipe-header {
+  color: #262626;
+}
+
+div.content {
+  text-align: center;
   background-color: white ;
   height: 700px;
   width: 65% ;
   margin-left: 18%;
   border-radius: 50px;
+  color: #262626;
 }
 
- .content {
-  text-align: center;
-}
 /* fixed navigation bar at the top of the page */
 .navbar {
   position: fixed;
@@ -32,6 +42,7 @@ div {
   overflow: hidden;
   padding: 10px;
   border-radius: 20px;
+  background-color: white;
 }
 
 /* links in navigation bar */
@@ -57,9 +68,23 @@ div {
   background-color: #696969;
 }
 
-.footer {
+/* ingredients list */
+li {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  overflow: hidden;
+  padding: 10px;
+  border-right: 1px solid #262626;
+}
+
+/* adds a footer at the end of the page */
+footer {
+  bottom: 0;
   background-color: black;
-  height: 100px;
+  height: 60px;
   width: 100%;
-  border-radius: 0px
+  margin: auto;
+  display: block;
 }
