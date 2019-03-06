@@ -4,6 +4,18 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/competition.css">
     <title>Student Recipe</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function()
+  {
+    $("#hide").click(function(){
+      $("#recipe").hide();
+    });
+    $("#show").click(function(){
+      $("#recipe").show();
+    });
+  });
+  </script>
   </head>
 
   <body>
@@ -15,9 +27,16 @@
     <h1>Student Recipe</h1>
     <div class="content">
       <p>This will be the first recipe :)</p>
+      <button id="hide">Show Less</button>
+      <button id="show">Show More</button>
+      <div class="sub-content" id="recipe">
+      <p> recipe </p>
+    </div>
       <p>This will be the second recipe! :)</p>
       <p>This will be the third recipe ;)</p>
     </div>
+
+
 
     <div class="footer">
       <p></p>
