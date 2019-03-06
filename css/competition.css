@@ -6,19 +6,59 @@ body {
 }
 
 h1 {color: white;
-text-align: center;}
+text-align: center;
+}
 
 div {
   background-color: white ;
   height: 700px;
   width: 65% ;
-  margin:auto;
+  margin-left: 18%;
   border-radius: 50px;
 }
+
+.content {
+  text-align: center;
+}
+/* fixed navigation bar at the top of the page */
+.navbar {
+  position: fixed;
+  width: 15%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* links in navigation bar */
+.navbar a {
+  font-size: 1em;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: black;
+}
+
+/* create an active/current navigation link to show where user is at the moment */
+#active {
+  color: white;
+  background-color:#006600;
+}
+
+/* changes in navbar when hover mouse */
+.navbar a:hover {
+  color: white;
+  background-color: #696969;
 
 .footer {
   background-color: black;
   height: 100px;
   width: 100%;
   border-radius: 0px
-}
+
