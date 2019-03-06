@@ -17,7 +17,7 @@ div {
   border-radius: 50px;
 }
 
- .content {
+.content {
   text-align: center;
 }
 /* fixed navigation bar at the top of the page */
@@ -51,8 +51,14 @@ div {
   background-color:#006600;
 }
 
-/* changes when hover mouse */
+/* changes in navbar when hover mouse */
 .navbar a:hover {
   color: white;
   background-color: #696969;
-}
+
+.footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  border-radius: 0px
+
