@@ -31,6 +31,7 @@ div.content {
   border-radius: 50px;
   color: #262626;
   font-size: 1em;
+  overflow: scroll;
 }
 
 /* fixed navigation bar at the top of the page */
@@ -94,6 +95,17 @@ ul {
 }
 .recipe {
 text-align: left;
+overflow: hidden;
+}
+
+ol {
+  list-style-type: 1;
+  color: inherit;
+}
+.recipe_items {
+  overflow: hidden;
+  list-style-type: decimal;
+  color: black;
 }
 /* adds a footer at the end of the page */
 footer {
