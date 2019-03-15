@@ -73,7 +73,7 @@ div.content {
 }
 
 /* ingredients list */
-li.ingredients {
+.ingredients {
   list-style-type: none;
   text-decoration: none;
   float: left;
@@ -99,13 +99,14 @@ overflow: hidden;
 }
 
 ol {
-  list-style-type: 1;
+  list-style-type: decimal;
   color: inherit;
 }
 .recipe_items {
   overflow: hidden;
   list-style-type: decimal;
-  color: black;
+  color: #262626;
+  margin: 0 0 5px 0;
 }
 /* adds a footer at the end of the page */
 footer {
