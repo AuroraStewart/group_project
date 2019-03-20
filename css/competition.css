@@ -203,3 +203,9 @@ img {
   padding: 15px;
   width: 380px;
 }
+
+.footer {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  }
