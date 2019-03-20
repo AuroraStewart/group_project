@@ -56,7 +56,7 @@ div.content {
 .navbar a {
   font-size: 1em;
   display: block;
-  color: white;
+  width: 100%;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
