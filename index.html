@@ -3,39 +3,220 @@
 
   <head>
     <link rel="stylesheet" type="text/css" href="css/competition.css">
-    <title>Student Recipes</title>
+    <title>Student Recipes Homepage</title>
   </head>
 
   <body>
-
+      <!-- Navigation bar, home is active, links to "all recipes" and "our blog" do not work yet  -->
     <div class="navbar">
         <a href=index.html id="active">Home</a>
         <a href=about.html>About us</a>
         <a href=recipes.html>All recipes</a>
+        <a href=blog.html>Our blog</a>
     </div>
+
+    <div class="recipe_key">
+      <h3 style="text-align: center">Our rankings explained</h3>
+      <div class="explanationbox" id="firstyearbox">
+        <h4 style="color: #1a75ff">first year</h4>
+        very easy, low effort, relatively quick, good for a cozy night
+      </div>
+      <div class="explanationbox" id="bachelorbox">
+        <h4 style="color: #00e673">bachelor</h4>
+        some experience is helpful, higher effort, small "wow" factor!
+      </div>
+      <div class="explanationbox" id="masterbox">
+        <h4 style="color: #ffa31a">master</h4>
+        pretty difficult, take time to read properly, might need two or three attempts, big "wow" factor!
+      </div>
+      <div class="explanationbox" id="phdbox">
+        <h4 style="color: #ff3333">phd</h4>
+        really hard, you need to practice it a few times, massive "wow" - you're the star of the evening!
+      </div>
+    </div>
+
     <h1>Student Recipes</h1>
+
     <h2>Recipes of the week</h2>
+<!-- first box, recipe of the week for the category "first year" (easiest) -->
     <div class="content" id="firstyear">
-      <p>This will be the first recipe :)</p>
-    </div>
-    <div class="content" id="bachelor">
-      <p>This will be the second recipe! :)</p>
-    </div>
-    <div class="content" id="master">
-      <p>This will be the third recipe ;)</p>
-    </div>
-    <div class="content" id="phd">
-      <h2 id="recipe-header">Macaron</h2>
-      <h3 id="recipe-header">Ingredients</h3>
+
+      <h2 id="recipe-header">First Year: Carrot and Coriander Soup</h2>
+
+      <img src="images/soup.jpg" alt="Picture of carrot soup">
+
+      <h3 id="recipe-header">Ingredients for one big pot</h3>
       <ul>
-        <li id="ingredients">Egg whites</li>
-        <li id="ingredients">sugar</li>
-        <li id="ingredients">almond flour</li>
-        <li id="ingredients">salt</li>
-        <li id="ingredients">foot colouring</li>
+        <li class="ingredients">1 tbsp vegetable oil</li>
+        <li class="ingredients">1 white onion, chopped</li>
+        <li class="ingredients">1 1/2 tsp ground coriander</li>
+        <li class="ingredients">2 potatoes, chopped</li>
+        <li class="ingredients">500g carrots, peeled and chopped</li>
+        <li class="ingredients">1.2l vegetable stock</li>
+        <li class="ingredients">handful of chopped coriander</li>
+        <li class="ingredients" id="lastitem">salt & pepper to taste</li>
       </ul>
-      <p>This will be the fourth recipe</p>
+
+      <div class="recipe">
+        <ol>
+          <li class="recipe_items">Heat up the oil in a large pot over medium heat. Add the onion and sweat until soft.</li>
+          <li class="recipe_items">Stir in the coriander and the potatoes and cook for a few minutes.</li>
+          <li class="recipe_items">Add carrots and sweat everything for 2 more mintues.</li>
+          <li class="recipe_items">Fill up with stock until everything is well-covered. Let simmer covered for 25 minutes (until carrots are tender).</li>
+          <li class="recipe_items">Throw in the coriander and blend everything with a stick blender until soup is smooth.</li>
+          <li class="recipe_items">Season with salt and pepper to taste.</li>
+          <li class="enjoy"><em>Enjoy ;)</em></li>
+        </ol>
+      </div>
+
+      <div>
+        <ul>
+          <li class="timing"><em>preparation time:</em> 15min</li>
+          <li class="timing"><em>cooking time:</em> 25min</li>
+        </ul>
+      </div>
     </div>
+
+<!-- second box, recipe of the week for the second category "bachelor" (low-medium) -->
+      <div class="content" id="bachelor">
+      <h2 id="recipe-header">Bachelor: Spaghetti Bolognese</h2>
+
+      <img src="images/spaghetti.jpg" alt="Picture of Spaghetti Bolognese">
+
+      <h3 id="recipe-header">Ingredients for one big pot</h3>
+
+      <ul>
+        <li class="ingredients">1tbsp vegetable oil</li>
+        <li class="ingredients">500g beef mince</li>
+        <li class="ingredients">1 white oninon, diced</li>
+        <li class="ingredients">2 cloves of garlic, minced</li>
+        <li class="ingredients">2 carrots, diced</li>
+        <li class="ingredients" id="lastitem">2 sticks of cellery, diced</li>
+      </ul>
+      <ul>
+        <li class="ingredients">1tbsp tomato puree</li>
+        <li class="ingredients">2 cans of tomatoes</li>
+        <li class="ingredients">250ml beef stock</li>
+        <li class="ingredients">salt, pepper & sugar to taste</li>
+        <li class="ingredients">1 pack of spaghetti</li>
+        <li class="ingredients">grated parmeggiano</li>
+        <li class="ingredients" id="lastitem">1 bunch of basil, chopped roughly</li>
+      </ul>
+      <div class="recipe">
+        <ol>
+          <li class="recipe_items">Heat up the pan on medium heat. Add the oil to a pan and let it heat up properly. Test with a wooden spoon: if bubbles rise up around the spoon, the oil is hot enough!</li>
+          <li class="recipe_items">Add the mince and let it brown thoroughly. Add some salt and pepper to make the beef tasty!</li>
+          <li class="recipe_items">Add onions and garlic to the pan and let everything sweat until it is aromatic.</li>
+          <li class="recipe_items">Add carrots and cellery and let everything sweat. Add a little salt again at this stage to keep the flavour up.</li>
+          <li class="recipe_items">Make a little well in the center and add the tomatoe puree. Let it roast for a little while.</li>
+          <li class="recipe_items">Mix everything thoroughly and then add the tomatoes and beef stock to the pan. STir thoroughly to get all the aromatics from the bottom of the pan.</li>
+          <li class="recipe_items">Turn down the heat to low, cover the pan, and let everything simmer for 45-60 minutes. Stir occasionally!</li>
+          <li class="recipe_items">Taste the sauce and add salt, pepper and sugar to taste.</li>
+          <li class="recipe_items">Cook spaghetti according to the package until they are aldente. Save a little water to liquify the sauce a little bit.</li>
+          <li class="recipe_items">Drain pasta and add with some of the cooking water to the sauce, stir till combined well.</li>
+          <li class="recipe_items">Top with the chopped basil and parmeggiano to taste.</li>
+          <li class="enjoy"><em>Enjoy ;)</em></li>
+        </ol>
+      </div>
+
+      <div>
+        <ul>
+          <li class="timing"><em>preparation time:</em> 40min</li>
+          <li class="timing"><em>cooking time:</em> 1hr - 1.5hrs</li>
+        </ul>
+      </div>
+    </div>
+
+<!-- third box, recipe of the week for third category "master" (medium-hard)-->
+    <div class="content" id="master">
+      <h2 id="recipe-header">Master: Asian Leek and Chicken Salad</h2>
+
+      <h3 id="recipe-header">Ingredients for 4 portions</h3>
+
+      <ul>
+        <li class="ingredients">500g chicken breast filets</li>
+        <li class="ingredients">3tbsp white wine</li>
+        <li class="ingredients">3tsp corn starch</li>
+        <li class="ingredients">1 egg white</li>
+        <li class="ingredients">4 leeks</li>
+        <li class="ingredients">6tbsp vegetable oil</li>
+        <li class="ingredients">4 tbsp soy sauce</li>
+        <li class="ingredients">50g sugar</li>
+        <li class="ingredients">50g cashew nuts</li>
+        <li class="ingredients" id="lastitem">salt & pepper to taste</li>
+      </ul>
+      <div class="recipe">
+        <ol>
+          <li class="recipe_items">Pat dry the chicken and cut it in strips.</li>
+          <li class="recipe_items">Mix white wine, corn starch, and egg white in a bowl. Add the chicken, mix well, cover the bowl and let it rest in the fridge for 30 minutes.</li>
+          <li class="recipe_items">Wash the leeks and cut them in rings. Heat up 3tbsp of oil in a big pan, all the leeks and let them sweat for 10 minutes. Put it in a bowl to cool down.</li>
+          <li class="recipe_items">Combine soy sauce, sugar, and salt & pepper and mix the dressing with the leeks.</li>
+          <li class="recipe_items">Roast the cashew nuts in a pan with no oil till they are golden and aromatic. Set aside to cool.</li>
+          <li class="recipe_items">Heat up 3tbsp of oil in a pan and let it heat up. Fry the chicken breast til they are coloured on all sides.</li>
+          <li class="recipe_items">Let the meat cool down and add it to the leeks.</li>
+          <li class="recipe_items">Season with soy sauce to taste and sprinkle with the cashew nuts before serving.</li>
+          <li class="enjoy"><em>Enjoy ;)</em></li>
+        </ol>
+      </div>
+
+      <div>
+        <ul>
+          <li class="timing"><em>preparation time:</em> 20min</li>
+          <li class="timing"><em>resting time:</em> 30min</li>
+          <li class="timing"><em>cooking time:</em> 10min</li>
+        </ul>
+      </div>
+    </div>
+
+<!-- fourth box, recipe of the week for the last category "phd" (hardest)-->
+    <div class="content" id="phd">
+      <h2 id="recipe-header">Phd: Macarons</h2>
+
+      <img src="images/macarons.jpg" alt="Picture of classic Macarons">
+
+      <h3 id="recipe-header">Ingredients for 20</h3>
+
+      <ul>
+        <li class="ingredients">140g powdered sugar</li>
+        <li class="ingredients">60g fine almond flour</li>
+        <li class="ingredients">1 tsp salt</li>
+        <li class="ingredients">2 egg whites (room temp)</li>
+        <li class="ingredients">30g granulated sugar</li>
+        <li class="ingredients">1/2 tsp vanilla extract</li>
+        <li class="ingredients">2 drops food colouring</li>
+        <li class="ingredients" id="lastitem">butter cream or ganache of choice</li>
+      </ul>
+
+      <div class="recipe">
+          <ol type="1">
+            <li class="recipe_items">Combine powdered sugar, almond flour and 1/2 tsp of salt, sift the mix through a fine-mesh sieve into a large bowl.</li>
+            <li class="recipe_items">In another bowl, beat egg whites and remaining salt with a hand mixer until you get soft peaks. Slowly add granulated suger, continue to beat till stiff peaks form.</li>
+            <li class="recipe_items">Add vanilla and beat till incorporated (not long at all!).If you want coloured macarons, add the colouring now.</li>
+            <li class="recipe_items">Add about 1/3 of the sifted almond flour to the egg whites and gently fold in with a spatula. continue to fold after the last addition until you can make a figure of an 8 while holding up the spatula.</li>
+            <li class="recipe_items">Transfer batter into poping bag with small round tip.</li>
+            <li class="recipe_items">Pipe the macarons onto the baking tray fitted with parchment paper in 3cm wide circles; space them at least 2cm apart! (Usually, you need 2-3 baking trays)</li>
+            <li class="recipe_items">Tap the baking tray on a flat surface 5 times to release air bubbles.</li>
+            <li class="recipe_items">Let macarons sit at room temperature for 45 minutes or until you can touch them without breaking the skin.</li>
+            <li class="recipe_items">preheat the oven to 150° fan.</li>
+            <li class="recipe_items">Bake macarons for 17-20 minutes or until feet are well-risen and macarons don't stick ot the paper anymore.</li>
+            <li class="recipe_items">transfer them to a wire rack to cool completely.</li>
+            <li class="recipe_items">Add a little bit of your favourite butter cream or ganache onto one shell, top it with another shell to make a macaron.</li>
+            <li class="recipe_items">Place in an airtight containr for about 24h to make them taste their best! </li>
+            <li class="enjoy"><em>Enjoy ;)</em></li>
+          </ol>
+      </div>
+
+      <div>
+        <ul>
+          <li class="timing"><em>preparation time:</em> 20min</li>
+          <li class="timing"><em>resting time:</em> approx. 45min</li>
+          <li class="timing"><em>baking time:</em> 17min - 20 min</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- footer will display social media icons and a contact form -->
     <footer>
       <p>This is the Footer</p>
     </footer>

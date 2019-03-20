@@ -16,6 +16,7 @@ h2 {
   color: white;
   text-align: center;
 }
+
 #recipe-header {
   color: #262626;
 }
@@ -24,10 +25,15 @@ div.content {
   text-align: center;
   background-color: white ;
   height: 700px;
-  width: 65% ;
+  width: 62%;
   margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 1.5em;
   border-radius: 50px;
   color: #262626;
+  font-size: 1em;
+  overflow: scroll;
+ /* overflow:scroll could be useful to fit text in the div if we don't manage the jQuery! */
 }
 
 /* fixed navigation bar at the top of the page */
@@ -42,6 +48,7 @@ div.content {
   overflow: hidden;
   padding: 10px;
   border-radius: 20px;
+  border: solid 1px #262626;
   background-color: white;
 }
 
@@ -68,10 +75,78 @@ div.content {
   background-color: #696969;
 }
 
+/* floating key div, absolute in the top right corner, explanation for the rankings */
+.recipe_key {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: white;
+  width: 15%;
+  border: solid 1px #262626;
+  padding: 12px 14px;
+}
+
+/* includes individual boxes with the explanations, each with a border and  */
+.explanationbox {
+  border: dotted 1px #262626;
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+}
+
+/* header for each category */
+h4 {
+  padding: 5px;
+  margin: 5px 0 5px 0
+}
+
+em {
+  font-size: 1.2em;
+}
+/* matching the border color for the boxes with the color of the recipe div and the headings */
+#firstyearbox {
+  border-color: #1a75ff;
+}
+#bachelorbox {
+  border-color: #00e673;
+}
+#masterbox {
+  border-color: #ffa31a;
+}
+#phdbox {
+  border-color: #ff3333;
+}
+/* differences in styling between the different categories' recipes */
+
+#firstyear {
+  border: 4px solid #1a75ff;
+}
+#bachelor {
+  border: 4px solid #00e673;
+}
+#master {
+  border: 4px solid #ffa31a;
+}
+#phd {
+  border: 4px solid #ff3333;
+}
 /* ingredients list */
-li {
+ul {
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.ingredients {
   list-style-type: none;
-  text-align: center;
   text-decoration: none;
   float: left;
   overflow: hidden;
@@ -79,12 +154,52 @@ li {
   border-right: 1px solid #262626;
 }
 
+#lastitem {
+  border-right: none;
+  padding-right: auto;
+}
+
+.timing {
+  list-style-type: none;
+  float: left;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.recipe {
+text-align: left;
+}
+
+ol {
+  list-style-type: decimal;
+  color: inherit;
+}
+.recipe_items {
+  color: #262626;
+  margin: 0 0 5px 0;
+}
+
+.enjoy {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px;
+  list-style-type: none;
+  color: #006600;
+
+}
 /* adds a footer at the end of the page */
 footer {
   bottom: 0;
   background-color: black;
-  height: 60px;
+  height: 100px;
   width: 100%;
   margin: auto;
   display: block;
+}
+
+img {
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+  width: 380px;
 }
